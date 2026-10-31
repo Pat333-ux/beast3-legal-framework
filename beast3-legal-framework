@@ -1,0 +1,27 @@
+beast3-legal-framework/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── constitution.md
+│   ├── bylaws.md
+│   ├── judicial-charter.md
+│   └── compliance-framework.md
+│
+├── src/
+│   ├── core/
+│   │   ├── ConstitutionEngine.ts
+│   │   ├── ContractTemplateRegistry.ts
+│   │   └── LegislativeClauseManager.ts
+│   │
+│   ├── api/
+│   │   └── legal.ts
+│   │
+│   └── app/
+│       ├── layout.tsx
+│       └── page.tsx
+│
+└── public/
+    └── logo.png
